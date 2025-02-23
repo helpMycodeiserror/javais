@@ -14,7 +14,7 @@ class Cart {
         if(inbug == 0){
             System.out.println("0");
         }
-         else if(inbug*tem.want2buy < boxx){
+         else if(inbug*tem.want2buy <= boxx){
             System.out.println("1");
         }
         else{
